@@ -1,0 +1,67 @@
+body{padding-top:50px;padding-bottom:20px}.body-content{padding-left:15px;padding-right:15px}.carousel-caption p{font-size:20px;line-height:1.4}.carousel-inner .item img[src$=".svg"]{width:100%}#qrCode{margin:15px}@media screen and (max-width:767px){.carousel-caption{display:none}}
+
+.Registration, .Login{
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    text-align: right;
+}
+
+ul{
+    text-align: right;
+    list-style-type: none;
+}
+
+span{
+    color:red;
+}
+
+.logged{
+    padding-top: 8px;
+    color: white;
+    text-align: right;
+    margin-left: 100px;    
+}
+.post_msg, .delete_cmt, .delete_msg, .post_cmt{
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    width: 120px;
+}
+.post_msg{
+    margin-left: 840px;
+    background-color: lightskyblue;
+}
+.delete_msg, .delete_cmt{
+    background-color: rgb(255, 1, 1);
+}
+.delete_cmt{
+    margin-left: 20px;
+}
+.post_cmt{
+    background-color: rgb(103, 241, 103);
+    margin-left: 830px;
+}
+.msg_box {
+    width: 960px;
+    height: 80px;
+    resize: none;
+    padding: 5px;
+}
+.cmt_box {
+    width: 930px;
+    height: 80px;
+    resize: none;
+    padding: 5px;
+    margin-left: 20px;
+}
+.messages{
+    margin: 10px;
+    width: 950px;
+}
+p{
+    margin: 10px 0px;
+}
+.cmt_author, .cmt, .cmt_post{
+    margin-left: 20px;
+}

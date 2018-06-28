@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Success";
+}
+
+<h1>Victory!</h1>
+@{
+    foreach(var key in TempData["User"] as List<Dictionary<string, object>>){
+        <h2>Hello @key["firstName"]</h2>
+    }
+}

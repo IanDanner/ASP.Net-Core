@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>C# Dojodachi</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>KirbyDachi</h1>
+        <h3 class="stats">Fullness: @ViewBag.Fullness | Happiness: @ViewBag.Happiness | Meals: @ViewBag.Meals | Energy: @ViewBag.Energy</h3>
+        <div class="dachi">
+            <img src=@ViewBag.Image alt="Dojodachi Pet">
+            <h3>@ViewBag.Message</h3>
+        </div>
+        @if (ViewBag.Alive)
+        {
+            <div>
+                <h3 class="action"><a href="feed">Feed</a> | <a href="play">Play</a> | <a href="work">Work</a> | <a href="sleep">Sleep</a></h3>
+            </div>
+        }
+        else
+        {
+            <div>
+                <h3 class="action"><a href="restart">Restart</a></h3>
+            </div>             
+        }
+    </div>
+</body>
+</html>

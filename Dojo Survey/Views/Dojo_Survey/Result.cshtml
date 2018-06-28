@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>C# Result</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <div id="wrapper">     
+        <h1>Dojo Survey</h1><br>
+        <h3>Submitted Info</h3><br>
+        <div class="labels">
+            <p>Name:</p>
+            <p>Dojo Location:</p>
+            <p>Favorite Language:</p>
+            <p>Comment:</p>
+        </div>
+        <div class="results">
+            <p>@ViewBag.username</p>
+            <p>@ViewBag.location</p>
+            <p>@ViewBag.language</p>
+            <p>@ViewBag.comments</p>
+        </div>
+        <a href="/">Home</a>
+    </div>
+</body>
+</html>

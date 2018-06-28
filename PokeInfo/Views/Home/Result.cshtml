@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "PokeInfo Result";
+}
+
+<h1>@ViewBag.info["name"].ToUpper()</h1>
+<img src=@ViewBag.info["sprites"]["front_default"]>
+<h2>ID #@ViewBag.info["id"]</h2>
+
+<h3>Type</h3>
+<ul>
+@foreach(var type in ViewBag.info["types"])
+    {
+        <li>@type["type"]["name"]</li>;
+    }
+</ul>
+
+<h3>Height</h3>
+@{
+    int height = Convert.ToInt32(ViewBag.info["height"])/10;
+    int weight = Convert.ToInt32(ViewBag.info["weight"])/10;
+}
+<p>@height m</p>
+<h3>Weight</h3>
+<p>@weight kg</p>

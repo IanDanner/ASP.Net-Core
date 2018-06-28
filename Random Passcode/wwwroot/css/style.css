@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 970px;
+    margin: 20px auto;
+}
+.navbar{
+    margin-left: 800px;
+}
+.labels, .results{
+    display: inline-block;
+    text-align: left;
+    margin-right: 20px;
+    vertical-align: top;
+}

@@ -1,0 +1,10 @@
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Login and Registration\bin\Debug\netcoreapp2.0\Login and Registration.deps.json
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Login and Registration\bin\Debug\netcoreapp2.0\Login and Registration.runtimeconfig.json
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Login and Registration\bin\Debug\netcoreapp2.0\Login and Registration.runtimeconfig.dev.json
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Login and Registration\bin\Debug\netcoreapp2.0\Login and Registration.dll
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Login and Registration\bin\Debug\netcoreapp2.0\Login and Registration.pdb
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Login and Registration\obj\Debug\netcoreapp2.0\Login and Registration.csproj.CoreCompileInputs.cache
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Login and Registration\obj\Debug\netcoreapp2.0\Login and Registration.AssemblyInfoInputs.cache
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Login and Registration\obj\Debug\netcoreapp2.0\Login and Registration.AssemblyInfo.cs
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Login and Registration\obj\Debug\netcoreapp2.0\Login and Registration.dll
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Login and Registration\obj\Debug\netcoreapp2.0\Login and Registration.pdb

@@ -1,0 +1,10 @@
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.deps.json
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.runtimeconfig.json
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.runtimeconfig.dev.json
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.dll
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.pdb
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.csproj.CoreCompileInputs.cache
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.AssemblyInfoInputs.cache
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.AssemblyInfo.cs
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.dll
+C:\Users\NORSEMAN\Desktop\DojoAssignments\C#\ASP.NET Core\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.pdb

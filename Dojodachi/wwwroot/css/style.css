@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 970px;
+    margin: 50px auto;
+    text-align: center;
+}
+.dachi{
+    margin: 0 auto;
+    width: 400px;
+    height: 280px;
+    border: 2px solid black;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.stats{
+    margin: 10px;
+
+}
+.action, .action a, h1{
+    color: deeppink ;
+    background: black;
+}
+.action, h1{
+    width: 404px;
+    display: inline-block;
+}
+.action{
+    height: 30px;    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;   
+}

@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "The Wall";
+}
+
+@foreach(var user in TempData["User"] as List<Dictionary<string, object>>)
+{
+    int userID = Convert.ToInt32(user["id"]);
+    <div id="post_msg">
+        <h1>Post a message</h1>
+        <span>@TempData["errors"]</span>
+        <form action="/post_msg" method="POST">
+            <textarea class="msg_box" name="message" cols="160" rows="4" maxlength="600"></textarea>
+            <input type="hidden" name="userId" value=@userID>
+            <button class="post_msg button_size" type="submit">Post Message</button>  
+        </form>
+    </div>
+    <div class="msg_wall">
+        @foreach(var message in TempData["Messages"] as List<Dictionary<string, object>>)
+        {
+            <div class="messages">
+                <h4 class="msg_author">@message["firstName"] @message["lastName"] - @String.Format("{0:dddd, MMMM d, yyyy}", message["message_created"])</h4>
+                <p class="msg">@message["message"]</p>
+                @if(Convert.ToInt32(message["users_id"]) == userID)
+                {
+                    <form action="/delete_msg" method='post'>
+                        <input type="hidden" name="msgId" value=@message["id"]>
+                        <input class="delete_msg button_size"type="submit" value="Delete Message">
+                    </form>
+                }
+                @foreach(var comment in TempData["Comments"] as List<Dictionary<string, object>>)
+                {
+                    @if(Convert.ToInt32(comment["messages_id"]) == Convert.ToInt32(message["id"]))
+                    {
+                        <h4 class="cmt_author">@comment["firstName"] @comment["lastName"] - @String.Format("{0:dddd, MMMM d, yyyy}",comment["comment_created"])</h4>
+                        <p class="cmt">@comment["comment"]</p>
+                        @if(Convert.ToInt32(comment["users_id"]) == userID)
+                        {
+                            <form action="/delete_cmt" method='post'>
+                                <input type="hidden" name="cmtId" value=@comment["id"]>
+                                <input class="delete_cmt button_size"type="submit" value="Delete Comment">
+                            </form>
+                        }
+                    }
+                }
+                <h3 class="cmt_post">Post a comment</h3>
+                <span style="margin-left:20px">@TempData["error"]</span>                
+                <form action="/post_cmt" method='post'>
+                    <textarea class="cmt_box" name="comment" cols="160" rows="4" maxlength="600"></textarea>
+                    <input type="hidden" name="userId" value=@userID>
+                    <input type="hidden" name="msgId" value=@message["id"]>                    
+                    <input class="post_cmt button_size" type="submit" value="Post Comment">
+                </form>
+            </div>
+        }
+    </div>
+}
